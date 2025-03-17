@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekt-News</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>My Daily News</h1>
+      <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search..." />
+        <select id="language-select">
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+          <option value="es">Espanol</option>
+        </select>
+        <select id="sort-select">
+          <option value="relevancy">Relevancy</option>
+          <option value="popularity">Popularity</option>
+          <option value="publishedAt">Published At</option>
+        </select>
+      </div>
+      <div id="news-container">
+        <div></div>
+      </div>
+    </main>
+  </body>
+  <script type="module" src="/src/main.ts"></script>
+</html>
